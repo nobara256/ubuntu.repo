@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Nobara
+Label: Nobara
+Suite: oracular
+Version: 24.10
+Codename: oracular
+Date: Fri, 11 Oct 2024 10:20:59 UTC
+Architectures: arm64
+Components: nobara
+Description: Ubuntu Oracular 24.10
+Acquire-By-Hash: no
+SHA256:
+  ceeefed637eb1eb5b94d04cc778c1b8aeccfa7fc37ea1997ec6a34e0fd249540       9847 dists/oracular/nobara/binary-arm64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEEFiyc6xd9c8XOC7ometkVxlxgKCQFAmd6lekACgkQetkVxlxg
+KCTjrgf/X0a+Zr344dwBcB0LIAudzX8Yi23iRZ36xRD8zeEvB01IeShHXSE0EQ5m
+yng7+VNKD6f/iOTPLzhvxNK4zLZ4G68j0/aEmUaOwDQ6ompQD2Us8YOAWXHrAbYY
+nCrNzGmjcRPggk8lMmABWzWWGnvU+QcGU/sk5Wze/Io+av/zUeG46T+U1IyLwmdi
+aUlS2w63+JPKwNj5hiV3KJ3jcVQM1G5cvTiqZmAo8UH9/ajqP+hiAg6aWK7In5SU
+7hvMehAt8uABHZKUgsO8ghutTFn+1ATrd6cpcQ7k6fzYd7hUL/5w4Q41AqfwkcIB
+ER1S/2k5+pkxVCyYku5VDIHLiqh5tQ==
+=0FVs
+-----END PGP SIGNATURE-----

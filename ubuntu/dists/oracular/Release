@@ -1,0 +1,12 @@
+Origin: Nobara
+Label: Nobara
+Suite: oracular
+Version: 24.10
+Codename: oracular
+Date: Fri, 11 Oct 2024 10:20:59 UTC
+Architectures: arm64
+Components: nobara
+Description: Ubuntu Oracular 24.10
+Acquire-By-Hash: no
+SHA256:
+  ceeefed637eb1eb5b94d04cc778c1b8aeccfa7fc37ea1997ec6a34e0fd249540       9847 dists/oracular/nobara/binary-arm64/Packages

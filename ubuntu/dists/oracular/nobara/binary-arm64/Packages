@@ -1,0 +1,236 @@
+Package: linux-buildinfo-6.12.8-20250102-rockchip
+Source: linux-rockchip
+Version: 6.12.8-20250102
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 2025
+Filename: pool/nobara/kernel/linux-buildinfo-6.12.8-20250102-rockchip_6.12.8-20250102_arm64.deb
+Size: 388438
+MD5sum: f87fe2df462055a2e2f8c789c5a49fbc
+SHA1: 8b5cdb66c85be0e8a435200c329d9c9a5196213f
+SHA256: 63be0938b2d803dc299c16df1e4526490001b7a322c81a401e0645fcb0c97776
+Section: kernel
+Priority: optional
+Description: Linux kernel buildinfo for version 6.12.8 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 6.12.8 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-buildinfo-6.13-rc5-20241229-rockchip
+Source: linux-rockchip
+Version: 6.13-rc5-20241229
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 2038
+Filename: pool/nobara/kernel/linux-buildinfo-6.13-rc5-20241229-rockchip_6.13-rc5-20241229_arm64.deb
+Size: 390360
+MD5sum: 81a3f43746796f78dfa268730146033f
+SHA1: 9f532d25d28bcc7c9d39a4b820b74ac4dedda34a
+SHA256: a14304039bf305e358b309add7fd2aa7521e47cee8736d8bc673185e818aa1e7
+Section: kernel
+Priority: optional
+Description: Linux kernel buildinfo for version 6.13-rc5 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 6.13-rc5 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
+Package: linux-headers-6.12.8-20250102-rockchip
+Source: linux-rockchip
+Version: 6.12.8-20250102
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 6465
+Depends: linux-rockchip-headers-6.12.8-20250102, libc6 (>= 2.38)
+Provides: linux-headers, linux-headers-3.0
+Filename: pool/nobara/kernel/linux-headers-6.12.8-20250102-rockchip_6.12.8-20250102_arm64.deb
+Size: 1000750
+MD5sum: 40bf53d570e7e417eb9203add69a09da
+SHA1: 9136bd2e97c03e3fe6c147deb6df088599d5eceb
+SHA256: 42a1431dc2e5e2df2a705cf8fdb2371ab500e94be3b65ed4d9b46b0a5185f1ad
+Section: devel
+Priority: optional
+Description: Linux kernel headers for version 6.12.8 on ARMv8 SMP
+ This package provides kernel header files for version 6.12.8 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-6.12.8-20250102/debian.README.gz for details.
+
+Package: linux-headers-6.13-rc5-20241229-rockchip
+Source: linux-rockchip
+Version: 6.13-rc5-20241229
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 6401
+Depends: linux-rockchip-headers-6.13-rc5-20241229, libc6 (>= 2.38)
+Provides: linux-headers, linux-headers-3.0
+Filename: pool/nobara/kernel/linux-headers-6.13-rc5-20241229-rockchip_6.13-rc5-20241229_arm64.deb
+Size: 998462
+MD5sum: cc0f047a02df0fbd4c535d8e51c00a3e
+SHA1: 37d468a2f5f58b9b818f235da303e3a2952781c5
+SHA256: 0a65db44d2c303a3089b09c2da121e67ed399766abba53b50a30f67bbbee8582
+Section: devel
+Priority: optional
+Description: Linux kernel headers for version 6.13-rc5 on ARMv8 SMP
+ This package provides kernel header files for version 6.13-rc5 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-6.13-rc5-20241229/debian.README.gz for details.
+
+Package: linux-image-6.12.8-20250102-rockchip
+Source: linux-rockchip
+Version: 6.12.8-20250102
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 43524
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.12.8-20250102-rockchip
+Recommends: grub-efi-arm64, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-rockchip-tools, linux-headers-6.12.8-20250102-rockchip
+Conflicts: linux-image-unsigned-6.12.8-20250102-rockchip
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
+Filename: pool/nobara/kernel/linux-image-6.12.8-20250102-rockchip_6.12.8-20250102_arm64.deb
+Size: 44585152
+MD5sum: ade0770fde5a2e263b50369652a4f1d0
+SHA1: 0a93012d891adde24d549241d667944e8a1b6bbe
+SHA256: 70b544bebd10b234ce0c33cd69d6f754cd7d8c9d97d8f5449b52fd87139fc770
+Section: kernel
+Priority: optional
+Description: Linux kernel image for version 6.12.8 on ARMv8 SMP
+ This package contains the Linux kernel image for version 6.12.8 on
+ ARMv8 SMP.
+ .
+ Supports ROCKCHIP processors.
+ .
+ Geared toward Rockchip hardware.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-rockchip meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-6.13-rc5-20241229-rockchip
+Source: linux-rockchip
+Version: 6.13-rc5-20241229
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 43842
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.13-rc5-20241229-rockchip
+Recommends: grub-efi-arm64, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-rockchip-tools, linux-headers-6.13-rc5-20241229-rockchip
+Conflicts: linux-image-unsigned-6.13-rc5-20241229-rockchip
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
+Filename: pool/nobara/kernel/linux-image-6.13-rc5-20241229-rockchip_6.13-rc5-20241229_arm64.deb
+Size: 44902592
+MD5sum: 1e9769e1cadf6f2a916cc6db3e4d8572
+SHA1: e53f304fc4e339ec47c75449281b8b23f1acebd2
+SHA256: 8046429b12f7e67a3dda7220b30c5fd8d3dc42fcce83bc13f09f495d02e4fed1
+Section: kernel
+Priority: optional
+Description: Linux kernel image for version 6.13-rc5 on ARMv8 SMP
+ This package contains the Linux kernel image for version 6.13-rc5 on
+ ARMv8 SMP.
+ .
+ Supports ROCKCHIP processors.
+ .
+ Geared toward Rockchip hardware.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-rockchip meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-6.12.8-20250102-rockchip
+Source: linux-rockchip
+Version: 6.12.8-20250102
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 311432
+Depends: linux-image-6.12.8-20250102-rockchip | linux-image-unsigned-6.12.8-20250102-rockchip
+Filename: pool/nobara/kernel/linux-modules-6.12.8-20250102-rockchip_6.12.8-20250102_arm64.deb
+Size: 52442848
+MD5sum: d837bbf8e51bdc825f5a38436ebeea7d
+SHA1: 98f6b4ad40868144ea0ba7dcfe3b0a5f07bb00a0
+SHA256: 44c95c61fcef6cf72d1b6efaf2bf349196410dbe3b38cac7a3907f1a1512ef4f
+Section: kernel
+Priority: optional
+Description: Linux kernel extra modules for version 6.12.8 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ROCKCHIP processors.
+ .
+ Geared toward Rockchip hardware.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-rockchip meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-modules-6.13-rc5-20241229-rockchip
+Source: linux-rockchip
+Version: 6.13-rc5-20241229
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 314171
+Depends: linux-image-6.13-rc5-20241229-rockchip | linux-image-unsigned-6.13-rc5-20241229-rockchip
+Filename: pool/nobara/kernel/linux-modules-6.13-rc5-20241229-rockchip_6.13-rc5-20241229_arm64.deb
+Size: 52681510
+MD5sum: 6c45b359e9cb5b1e41919463e52e2928
+SHA1: 9ed7cabc83250d5c0bff44060b3c1326abe20d1a
+SHA256: a5a6da142a3602c1206607f5f0bcb95caff5c66fd4d509fb22363b187985c27e
+Section: kernel
+Priority: optional
+Description: Linux kernel extra modules for version 6.13-rc5 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ROCKCHIP processors.
+ .
+ Geared toward Rockchip hardware.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-rockchip meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-rockchip-headers-6.12.8-20250102
+Source: linux-rockchip
+Version: 6.12.8-20250102
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 85583
+Depends: coreutils
+Filename: pool/nobara/kernel/linux-rockchip-headers-6.12.8-20250102_6.12.8-20250102_arm64.deb
+Size: 13793766
+MD5sum: a177ce0e57ce879bcdfadac252e49188
+SHA1: 08bdcb174cd4f5b063a48ef24d2cbd73b3a428a1
+SHA256: da8ef2ae5de56a9221c716ebb1077011131205615b7a384899ecad6fa026c659
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Description: Header files related to Linux kernel version 6.12.8-20250102
+ This package provides kernel header files for version 6.12.8-20250102, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-rockchip-headers-6.12.8-20250102/debian.README.gz for details
+
+Package: linux-rockchip-headers-6.13-rc5-20241229
+Source: linux-rockchip
+Version: 6.13-rc5-20241229
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 86220
+Depends: coreutils
+Filename: pool/nobara/kernel/linux-rockchip-headers-6.13-rc5-20241229_6.13-rc5-20241229_arm64.deb
+Size: 13889708
+MD5sum: ac9abdf9d63181c447064a0504655786
+SHA1: 92b223c1b37677b0e5a9f28dd9f7267c57837c80
+SHA256: ade108e7c89f48b3f37d359c2c4c6a0d5f3308dee6ae371198387f751acf1532
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Description: Header files related to Linux kernel version 6.13-rc5-20241229
+ This package provides kernel header files for version 6.13-rc5-20241229, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-rockchip-headers-6.13-rc5-20241229/debian.README.gz for details
+
