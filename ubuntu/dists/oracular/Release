@@ -9,5 +9,5 @@ Components: nobara
 Description: Ubuntu Oracular 24.10
 Acquire-By-Hash: no
 SHA256:
-  ceeefed637eb1eb5b94d04cc778c1b8aeccfa7fc37ea1997ec6a34e0fd249540       9847 dists/oracular/nobara/binary-arm64/Packages
-  605e9fc01435845e2c5bc00a54886195b76e296596044ba210530d22e4ea02ee        100 dists/oracular/nobara/binary-arm64/Release
+  ceeefed637eb1eb5b94d04cc778c1b8aeccfa7fc37ea1997ec6a34e0fd249540       9847 nobara/binary-arm64/Packages
+  605e9fc01435845e2c5bc00a54886195b76e296596044ba210530d22e4ea02ee        100 nobara/binary-arm64/Release
