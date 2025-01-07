@@ -12,16 +12,16 @@ Components: nobara
 Description: Ubuntu Oracular 24.10
 Acquire-By-Hash: no
 SHA256:
-  ceeefed637eb1eb5b94d04cc778c1b8aeccfa7fc37ea1997ec6a34e0fd249540       9847 nobara/binary-arm64/Packages
+  ffb5f02685eafe9f5f9ba2c78ba26aff7c7862198a81b62a2de469fd6b308766      15568 nobara/binary-arm64/Packages
   605e9fc01435845e2c5bc00a54886195b76e296596044ba210530d22e4ea02ee        100 nobara/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCgAdFiEEFiyc6xd9c8XOC7ometkVxlxgKCQFAmd6nWgACgkQetkVxlxg
-KCSVKgf/XOvfrwrAKbMxIAOJQT0H74TuuGnoRycF6N8Dxozq5/KIg4sAfLXQVXhf
-eMfrTdeQ9Xd1ql7nK9eT+Fz/f+nzWpBwFgka2EUIQ9qXQDfDQPTP3YE7tIGcfFQ9
-qOsXanX2YoDJhDpXyQiZeArp9fNUsb33Z1XmIdtisKd/ES6E9aNJbokyjGPoXv10
-nEPUUZj4GqEf6YaMKNEHi6cPbA9DDiravVPtgERhy+Htgf59rHGpZJZy8fskwbuh
-C2a4K6JBnWW9ZN7Dmq3pTBs0tt04031anh3UNSVss/gkDyrbj5zF0gQ5E/OS1lHP
-NKogdjExswQFPiLSNFRrTHJ6DLlASw==
-=9fSj
+iQEzBAEBCgAdFiEEFiyc6xd9c8XOC7ometkVxlxgKCQFAmd8zi4ACgkQetkVxlxg
+KCTYBAgArruW29UXLci+IdWKi0LvFMEZAqGXr65vAYlY3j6PrG8QIF4CwB8/yE7w
+N5qEf2gEn5xBsmcl7TjjKEZ5x2bEYVmhx9wSi2ULpJR6XsGWBpLHsWqLcfhutpwt
+d758kR5UlfpN4VgCqD/JFuqH+ROmb7zpEkmtnFN8W3rwtnvYQ3V061aUQ7dJ9ZgQ
+yGLdwyDs+lHZTWxdo3Gq43wWD9npG+uOFOtuvnszOshyOHmIPRnZ65nm+gnA1BfT
+FDxiN0rIH2MP475q9qNZo4Va530o/YQQgHkFESZ9ZJCJbUb8vzg0iqB+BRpIVPOT
+FtVbq5AZaRj1exhDenDgv5HCR38FDw==
+=a6Nq
 -----END PGP SIGNATURE-----

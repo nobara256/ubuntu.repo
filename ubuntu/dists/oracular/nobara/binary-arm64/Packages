@@ -36,6 +36,25 @@ Description: Linux kernel buildinfo for version 6.13-rc5 on ARMv8 SMP
  .
  You likely do not want to install this package.
 
+Package: linux-buildinfo-6.13-rc6-20250105-rockchip
+Source: linux-rockchip
+Version: 6.13-rc6-20250105
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 2038
+Filename: pool/nobara/kernel/linux-buildinfo-6.13-rc6-20250105-rockchip_6.13-rc6-20250105_arm64.deb
+Size: 390326
+MD5sum: 8dd52e3e0ec2ae37774407e35d1e06c1
+SHA1: a6cabf83118482033104408db1c58994df1d7abc
+SHA256: 784e10ac94ceb5444fb3754bfe5d81b5d29e8f72c8188d11d39015e8154d86f0
+Section: kernel
+Priority: optional
+Description: Linux kernel buildinfo for version 6.13-rc6 on ARMv8 SMP
+ This package contains the Linux kernel buildinfo for version 6.13-rc6 on
+ ARMv8 SMP.
+ .
+ You likely do not want to install this package.
+
 Package: linux-headers-6.12.8-20250102-rockchip
 Source: linux-rockchip
 Version: 6.12.8-20250102
@@ -79,6 +98,28 @@ Description: Linux kernel headers for version 6.13-rc5 on ARMv8 SMP
  .
  This is for sites that want the latest kernel headers.  Please read
  /usr/share/doc/linux-headers-6.13-rc5-20241229/debian.README.gz for details.
+
+Package: linux-headers-6.13-rc6-20250105-rockchip
+Source: linux-rockchip
+Version: 6.13-rc6-20250105
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 6401
+Depends: linux-rockchip-headers-6.13-rc6-20250105, libc6 (>= 2.38)
+Provides: linux-headers, linux-headers-3.0
+Filename: pool/nobara/kernel/linux-headers-6.13-rc6-20250105-rockchip_6.13-rc6-20250105_arm64.deb
+Size: 998618
+MD5sum: dde20d08ec53af74c55896e86b4b07e0
+SHA1: d1df3eecaf8d7b853e029eb1650daa549b3f01c9
+SHA256: 51715c59a8b57c6f1ff30cf6274973d9dc4e7d032f4299283f2cdc32e48a185b
+Section: devel
+Priority: optional
+Description: Linux kernel headers for version 6.13-rc6 on ARMv8 SMP
+ This package provides kernel header files for version 6.13-rc6 on
+ ARMv8 SMP.
+ .
+ This is for sites that want the latest kernel headers.  Please read
+ /usr/share/doc/linux-headers-6.13-rc6-20250105/debian.README.gz for details.
 
 Package: linux-image-6.12.8-20250102-rockchip
 Source: linux-rockchip
@@ -130,6 +171,36 @@ Section: kernel
 Priority: optional
 Description: Linux kernel image for version 6.13-rc5 on ARMv8 SMP
  This package contains the Linux kernel image for version 6.13-rc5 on
+ ARMv8 SMP.
+ .
+ Supports ROCKCHIP processors.
+ .
+ Geared toward Rockchip hardware.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-rockchip meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-image-6.13-rc6-20250105-rockchip
+Source: linux-rockchip
+Version: 6.13-rc6-20250105
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 43842
+Depends: kmod, linux-base (>= 4.5ubuntu1~16.04.1), linux-modules-6.13-rc6-20250105-rockchip
+Recommends: grub-efi-arm64, initramfs-tools | linux-initramfs-tool
+Suggests: fdutils, linux-rockchip-tools, linux-headers-6.13-rc6-20250105-rockchip
+Conflicts: linux-image-unsigned-6.13-rc6-20250105-rockchip
+Provides: fuse-module, ivtv-modules, kvm-api-4, linux-image, redhat-cluster-modules
+Filename: pool/nobara/kernel/linux-image-6.13-rc6-20250105-rockchip_6.13-rc6-20250105_arm64.deb
+Size: 44902592
+MD5sum: d676b79cc74e9c88c24f8e7519d4f468
+SHA1: e5de5bbd0dfba7d8c05b158dbd409cbd065f263b
+SHA256: a8792b022969ba888dcb6ee07da20821c65966603b605fe7968730e7dffc9cd2
+Section: kernel
+Priority: optional
+Description: Linux kernel image for version 6.13-rc6 on ARMv8 SMP
+ This package contains the Linux kernel image for version 6.13-rc6 on
  ARMv8 SMP.
  .
  Supports ROCKCHIP processors.
@@ -194,6 +265,49 @@ Description: Linux kernel extra modules for version 6.13-rc5 on ARMv8 SMP
  the linux-rockchip meta-package, which will ensure that upgrades work
  correctly, and that supporting packages are also installed.
 
+Package: linux-modules-6.13-rc6-20250105-rockchip
+Source: linux-rockchip
+Version: 6.13-rc6-20250105
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 314174
+Depends: linux-image-6.13-rc6-20250105-rockchip | linux-image-unsigned-6.13-rc6-20250105-rockchip
+Filename: pool/nobara/kernel/linux-modules-6.13-rc6-20250105-rockchip_6.13-rc6-20250105_arm64.deb
+Size: 52737990
+MD5sum: 7238df306c1f56c1cef2711c9534535b
+SHA1: f5990d37c45ffdc16228b9b931ea519e315a93db
+SHA256: ecd2a071a64beff3c0fae22f354a631cd922db7f3fb3d7a2d33a72fd9a94263a
+Section: kernel
+Priority: optional
+Description: Linux kernel extra modules for version 6.13-rc6 on ARMv8 SMP
+ Contains the corresponding System.map file, the modules built by the
+ packager, and scripts that try to ensure that the system is not left in an
+ unbootable state after an update.
+ .
+ Supports ROCKCHIP processors.
+ .
+ Geared toward Rockchip hardware.
+ .
+ You likely do not want to install this package directly. Instead, install
+ the linux-rockchip meta-package, which will ensure that upgrades work
+ correctly, and that supporting packages are also installed.
+
+Package: linux-rockchip-6.13-rc6-20250105
+Source: linux-rockchip
+Version: 6.13-rc6-20250105
+Architecture: arm64
+Maintainer: Kurokawa Nobara <nobara@kurokawa>
+Depends: linux-buildinfo-6.13-rc6-20250105-rockchip, linux-headers-6.13-rc6-20250105-rockchip, linux-image-6.13-rc6-20250105-rockchip, linux-modules-6.13-rc6-20250105-rockchip, linux-rockchip-headers-6.13-rc6-20250105
+Filename: pool/nobara/kernel/linux-rockchip-6.13-rc6-20250105_6.13-rc6-20250105_arm64.deb
+Size: 610
+MD5sum: 87815886af46dd06f6687b2ae956e1cb
+SHA1: 6009461900ae19b6e4e011e6bfe0c12555e3a6d9
+SHA256: 6f2ca886549e782c0b7eda6e48538e4f8c8dfa57d49044652d5f0d2825302081
+Section: main
+Priority: standard
+Description: A Meta Package for upstream linux-rockchip packages.
+Rules-Requires-Root: no
+
 Package: linux-rockchip-headers-6.12.8-20250102
 Source: linux-rockchip
 Version: 6.12.8-20250102
@@ -233,4 +347,24 @@ Description: Header files related to Linux kernel version 6.13-rc5-20241229
  This package provides kernel header files for version 6.13-rc5-20241229, for sites
  that want the latest kernel headers. Please read
  /usr/share/doc/linux-rockchip-headers-6.13-rc5-20241229/debian.README.gz for details
+
+Package: linux-rockchip-headers-6.13-rc6-20250105
+Source: linux-rockchip
+Version: 6.13-rc6-20250105
+Architecture: arm64
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Installed-Size: 86226
+Depends: coreutils
+Filename: pool/nobara/kernel/linux-rockchip-headers-6.13-rc6-20250105_6.13-rc6-20250105_arm64.deb
+Size: 13892632
+MD5sum: 3fecd0887b3821311b30ed24301b8a9f
+SHA1: 76cd181ace63c9a586f5396a5bd788870a8a850a
+SHA256: 70dcfff036d491e0ca87612f32851c5154a62cbc31381ec3f844867be9155d25
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Description: Header files related to Linux kernel version 6.13-rc6-20250105
+ This package provides kernel header files for version 6.13-rc6-20250105, for sites
+ that want the latest kernel headers. Please read
+ /usr/share/doc/linux-rockchip-headers-6.13-rc6-20250105/debian.README.gz for details
 
